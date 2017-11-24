@@ -27,8 +27,10 @@ namespace Autosalonas1
 
             foreach (var automobilis in Automobilis)
             {
-
+                automobilis.Isvedimas();
             }
         }
+
+
     }
 }
