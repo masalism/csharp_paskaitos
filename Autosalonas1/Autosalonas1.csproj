@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{211472CE-1FC7-44D3-B614-8ECC9A140B45}</ProjectGuid>
+    <ProjectGuid>{AD37555A-C011-44FB-8775-89F823C30C5E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_17_pavyzdziai</RootNamespace>
-    <AssemblyName>17 pavyzdziai</AssemblyName>
+    <RootNamespace>Autosalonas1</RootNamespace>
+    <AssemblyName>Autosalonas1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Darbuotojas.cs" />
-    <Compile Include="Medikas.cs" />
-    <Compile Include="Policininkas.cs" />
+    <Compile Include="Automobilis.cs" />
+    <Compile Include="Autosalonas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
