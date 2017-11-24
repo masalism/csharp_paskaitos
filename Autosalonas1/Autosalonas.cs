@@ -31,6 +31,17 @@ namespace Autosalonas1
             }
         }
 
+        public void IveskiteSkaiciu()
+        {
+            Console.WriteLine("Iveskite automobilio skaiciu: ");
+            var kuris = Convert.ToInt32(Console.ReadLine());
+
+            if (kuris == 1)
+            {
+                Automobilis[0].Isvedimas();
+            }
+        }
+
 
     }
 }
