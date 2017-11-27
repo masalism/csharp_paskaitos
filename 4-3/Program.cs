@@ -13,7 +13,7 @@ namespace _4_3
             Console.WriteLine("iveskite bet koki skaiciu:");
             var a = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("{0} kvadratas = {1}", a, a *a);
+            Console.WriteLine("{0} kvadratas = {1}", a, a * a);
         }
     }
 }

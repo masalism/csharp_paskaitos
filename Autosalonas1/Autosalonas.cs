@@ -11,12 +11,31 @@ namespace Autosalonas1
         public string Pavadinimas { get; private set; }
         public string Adresas { get; private set; }
         public List<Automobilis> Automobilis { get; private set; }
+        public List<Darbuotojas> Darbuotojas { get; private set; }
 
-        public Autosalonas(string pavadinimas, string adresas, List<Automobilis> automobilis)
+        public Autosalonas(string pavadinimas, string adresas, List<Automobilis> automobilis, List<Darbuotojas> darbuotojas)
         {
             Pavadinimas = pavadinimas;
             Adresas = adresas;
             Automobilis = automobilis;
+            Darbuotojas = darbuotojas;
+
+            Console.WriteLine("Pasirinkite skaiciu ka norite matyti: \n1. Automobiliai\n 2. Darbuotojai");
+            var pasirinkimas = Convert.ToInt32(Console.ReadLine());
+
+            switch (pasirinkimas)
+            {
+                case 1:
+                    IveskiteSkaiciu();
+                    break;
+                case 2:
+                    Darbuotojai();
+                    break;
+                default:
+                    Isvedimas();
+                    break;
+                    
+            }
         }
 
         public void Isvedimas()
@@ -39,6 +58,14 @@ namespace Autosalonas1
             if (kuris == 1)
             {
                 Automobilis[0].Isvedimas();
+            }
+        }
+
+        public void Darbuotojai()
+        {
+            foreach (var darbuotojas in Darbuotojas)
+            {
+                darbuotojas.Isvedimas();
             }
         }
 

@@ -20,6 +20,15 @@ namespace Autosalonas1
             });
             autosalonas.Isvedimas();
             autosalonas.IveskiteSkaiciu();
+
+            List<Darbuotojas> darbuotojai = new List<Darbuotojas> {
+                new Darbuotojas("Mantas", "Masalis", "Direktorius", "12 - 14 h", "mantas@dirikas.com"),
+                new Konsultantas("Darius", "Tulas", "Pardavejas", "7 - 23 h", "darius@vergas.com", 8, 6),
+                new Konsultantas("Greta", "Mazule", "Pardaveja", "12 - 16 h", "gretule@duodu.com", 999, 100)
+            };
+
+            autosalonas.Darbuotojai();
+            
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF14FD79-4FB9-4C2F-98C0-44542083D369}</ProjectGuid>
+    <ProjectGuid>{8AFCB350-F7A5-405E-863C-3B27BBF8AECF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Autosalonas</RootNamespace>
-    <AssemblyName>Autosalonas</AssemblyName>
+    <RootNamespace>pakartojimas</RootNamespace>
+    <AssemblyName>pakartojimas</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Automobilis.cs" />
-    <Compile Include="Autosalonas.cs" />
+    <Compile Include="Klase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

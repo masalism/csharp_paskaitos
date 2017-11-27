@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Darbuotojas.cs" />
+    <Compile Include="Direktorius.cs" />
     <Compile Include="Medikas.cs" />
     <Compile Include="Policininkas.cs" />
     <Compile Include="Program.cs" />

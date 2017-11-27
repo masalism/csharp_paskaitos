@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD37555A-C011-44FB-8775-89F823C30C5E}</ProjectGuid>
+    <ProjectGuid>{34F220F6-A203-4EF0-87B5-7AB07C151F9C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Autosalonas1</RootNamespace>
-    <AssemblyName>Autosalonas1</AssemblyName>
+    <RootNamespace>papildomos</RootNamespace>
+    <AssemblyName>papildomos</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Automobilis.cs" />
-    <Compile Include="Autosalonas.cs" />
-    <Compile Include="Darbuotojas.cs" />
-    <Compile Include="Konsultantas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
